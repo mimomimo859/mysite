@@ -46,15 +46,34 @@ ul {
 
 .portfolio-title {
   margin: 0px 0px 30px 0px;
+  display: flex;
+  justify-content: center;
 }
 
 .portfolio-image {
   background-color: #ddd;
-  justify-content: center;
+}
+
+.image {
+  width: 300px;
+  height: 250px;
 }
 
 .main-title {
   font-size: 80px;
+}
+
+.feature {
+  padding: 100px 0px 50px 0px;
+  text-align:center;
+}
+
+.feature-title {
+   margin: 0px 0px 30px 0px;
+}
+
+.strength {
+  display: flex;
 }
 
 footer {
